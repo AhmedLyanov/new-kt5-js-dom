@@ -1,0 +1,59 @@
+
+
+.inputBlock div{
+    margin-top: 30px;
+}
+
+
+.inputBlock{
+    background-color: rgb(226, 226, 226);
+    box-shadow: 1px ;
+    width: 300px;
+    margin-left: 100px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+body{
+  background-image: url(background.jpg);
+}
+
+
+tbody{
+    background-color: rgba(255, 255, 255, 0.622);
+    backdrop-filter: blur(10px);
+    
+}
+  
+
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+   
+    margin-left: 320px;
+    margin-top: 100px;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+
